@@ -1,0 +1,37 @@
+body
+{
+	background: rgba(19, 7, 237, 0.998);
+	text-align: center;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		margin: 0 auto;
+	}
+
+
+#jugador1 , #jugador2
+{
+	display: inline-block;
+}
+#palabra
+{
+	width: 60%;
+}
+#mostrarPalabra
+{
+	letter-spacing: 5px;
+}
+#juego
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}

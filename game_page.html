@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>El Glosario Matematico</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+
+<body>
+	<h4 id="jugador1"></h4><span id="puntosJugador1"></span>
+	<h4 id="jugador2"></h4><span id="puntosJugador2"></span>
+	<div class="container">
+		<center>
+			<h2 style="color: white;">Adivina la palabra</h2>
+			<h3 id="quienPregunta"></h3>
+			<h3 id="quienResponde"></h3>
+			<div id="juego" class="col-lg-6"></div>
+			<br>
+			<br>
+
+			<label>Escribe tu palabra: <b style="color: red">Escribe una palabra con 5 o más letras</b></label>
+			<input type="text" id="n1" class="form-control" placeholder="núm 1">
+			<input type="text" id="n2" class="form-control" placeholder="núm 2">
+			<br>
+			<button onclick="enviar()" class="btn-info">Enviar</button>
+		</center>
+	</div>
+
+	<script src="game_page.js"></script>
+</body>
+
+</html>
